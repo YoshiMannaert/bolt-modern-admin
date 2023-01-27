@@ -1,12 +1,12 @@
 {
-    "name": "acmecorp/reference-extension",
-    "description": "📦 This Bolt extension can be used as a starting point to base your own extensions on.",
+    "name": "mosh/bolt-modern-admin",
+    "description": "A modern admin theme for Bolt CMS",
     "type": "bolt-extension",
     "license": "MIT",
     "authors": [
         {
-            "name": "YourNameHere",
-            "email": "youremail@acme.com"
+            "name": "Yoshi mannaert",
+            "email": "yoshi.mannaert@gmail.com"
         }
     ],
     "require": {
@@ -19,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "AcmeCorp\\ReferenceExtension\\": "src/"
+            "Mosh\\BoltModernAdmin\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
-        "entrypoint": "AcmeCorp\\ReferenceExtension\\Extension"
+        "entrypoint": "Mosh\\BoltModernAdmin\\Extension"
     }
 }

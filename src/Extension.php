@@ -13,7 +13,7 @@ class Extension extends BaseExtension
      */
     public function getName(): string
     {
-        return 'AcmeCorp ReferenceExtension';
+        return 'Mosh - Bolt Modern Admin';
     }
 
     /**
